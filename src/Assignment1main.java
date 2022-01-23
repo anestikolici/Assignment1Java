@@ -37,6 +37,7 @@ public class Assignment1main {
         fdFixed.forEach((x)-> mapData.put(x.get(0)+x.get(3), new CovidData(x.get(0), x.get(1), x.get(2), x.get(3), x.get(4), x.get(5), x.get(6),
                 x.get(7), x.get(8), x.get(9), x.get(16), x.get(25), x.get(26), x.get(47), x.get(48), x.get(50) )));
 
+        stat=stat.toLowerCase(Locale.ROOT);
 
         if(stat.equals("max")){
 
